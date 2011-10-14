@@ -13,7 +13,7 @@ I wrote a scraper to collect the data, and recently updated it to reflect best-p
 *docs/* contains the scraped pages as of Sept 2011.
 
 ### Old Version
-*old.py* is the initial version of the code. Despite using some bad practices (parsing HTML with regex), it's _a lot_ faster than the new parser, *parse_records.py*. *old.py* contains code to both scrape and parse the data, whereas the new version splits the tasks into separate scripts.
+*old.py* is the initial version of the code. Despite using some bad practices (parsing HTML with regex), it's _a lot_ faster than the new parser, *parse_records.py*. This will be fixed soon. *old.py* contains code to both scrape and parse the data, whereas the new version splits the tasks into separate scripts.
 
 The output for *old.py* is in *lobbyists_old.csv*.
 
