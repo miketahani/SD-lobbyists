@@ -3,7 +3,7 @@
 from BeautifulSoup import *
 import csv, os
 
-def gen_readfiles(dir):
+def html_to_csv(dir):
     writer = csv.writer( open('lobbyists_new1.csv', 'wb'), dialect='excel' )
     writer.writerow( ['year','name','address','address2',
                       'employer','employer_address',
@@ -30,4 +30,4 @@ def get_innertext(node):
 
 if __name__ == '__main__':
     
-    gen_readfiles('docs/')
+    html_to_csv('docs/')
